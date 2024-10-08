@@ -1,0 +1,26 @@
+# Root .gitignore
+# Ignore .env files everywhere
+**/.env
+
+# Ignore node_modules everywhere
+**/node_modules
+
+# Ignore build outputs
+**/build
+**/dist
+
+# Ignore logs
+**/*.log
+
+# MongoDB data
+/data/db
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+./backend/.env
